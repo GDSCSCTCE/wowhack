@@ -10,7 +10,7 @@ export default function NavBar() {
     <div className="flex flex-col dark">
       <div className="flex flex-row justify-evently gap-4 h-10 m-5 p-2">
         <img alt="WoW Logo" src={Wow_Circle.src} className="h-10 w-10" />
-        <h1 className="text-[18px] leading-10">GDSC WoW</h1>
+        <h1 className="text-[25px] leading-10">GDSC WoW</h1>
         {/* <Button variant={'outline'}>Login</Button> */}
       </div>
       <hr className="bg-white" />

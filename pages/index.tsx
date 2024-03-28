@@ -12,10 +12,10 @@ export default function Home() {
       <NavBar />
       <div className="flex flex-col">
         <div className="flex flex-col justify-center items-center p-5">
-          <h1 className="text-white font-medium text-[15px] lg:text-[30px]">
+          <h1 className="text-white font-medium text-[30px] lg:text-[30px]">
             Google Developers Student Clubs, Kerala
           </h1>
-          <p className="text-white font-normal">presents</p>
+          <p className="text-white font-normal text-[25px]">presents</p>
           <h1 className="text-white font-bold  text-[100px] lg:text-[150px]">
             WoW
           </h1>
