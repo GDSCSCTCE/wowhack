@@ -15,7 +15,7 @@ const Hero = () => {
       <p className="text-white font-normal md:text-[25px] text-md my-4">
         presents
       </p>
-      <h1 className="bg-gradient-to-r from-green-600 via-blue-500 to-yellow-400 inline-block text-transparent bg-clip-text font-bold  md:text-[100px] z-20 text-5xl lg:text-[130px] mb-4">
+      <h1 className="bg-gradient-to-r from-green-600 via-blue-500 to-yellow-400  inline-block text-transparent bg-clip-text font-bold  md:text-[100px] z-20 text-5xl lg:text-[130px] mb-4">
         WoW'24
       </h1>
       <p className="md:px-56 md:text-xl text-sm lg:text-center text-justify flex justify-center items-center px-4 mb-8">
