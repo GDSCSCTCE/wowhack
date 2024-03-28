@@ -17,12 +17,12 @@ const Hero = () => {
 
     return (
         <div className="flex h-screen w-full flex-col justify-center items-center md:p-5 px-10 pt-28 overflow-hidden relative">
-            <img
+            <Image
                 src="/assets/images/LineDraw2.svg"
                 className="gradImgR absolute opacity-45 bg-gradient-to-r from-bgColor to-transparent -right-40 z-10 -rotate-45 -top-24  w-[50vw]"
                 alt=""
             />
-            <img
+            <Image
                 src="/assets/images/LineDraw2.svg"
                 className=" gradImgL absolute  opacity-45 -left-40 z-10 -rotate-45 scale-x-[-1]  scale-y-[-1]  -bottom-24  w-[50vw]"
                 alt=""
@@ -50,7 +50,7 @@ const Hero = () => {
             <div className="w-[50vw] flex flex-col md:flex-row justify-end items-center md:justify-center pt-8">
                 <div
                     className="apply-button"
-                    data-hackathon-slug="https://wowhackathon.devfolio.co/"
+                    data-hackathon-slug="wowhackathon.devfolio.co"
                     data-button-theme="dark-inverted"
                     style={{ height: '44px', width: '312px' }}
                 ></div>
