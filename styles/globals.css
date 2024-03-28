@@ -75,3 +75,10 @@ body {
     rgb(229, 227, 98) 100%);
   
 }
+
+.gradImgR{
+    mask-image: linear-gradient(to right, transparent, #151719);
+}
+.gradImgL{
+    mask-image: linear-gradient(to right, transparent, #151719);
+}
