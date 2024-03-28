@@ -61,7 +61,17 @@
 }
 
 body {
-  background-color: black;
+  background-color: #151719;
   color: white;
   margin: 0;
+}
+
+
+.gradColor{
+    background: linear-gradient(to right, 
+    rgba(16, 185, 129, 1) 0%, 
+    rgba(59, 130, 246, 1) 25%, 
+    rgba(239, 68, 68, 1) 50%, 
+    rgb(229, 227, 98) 100%);
+  
 }
