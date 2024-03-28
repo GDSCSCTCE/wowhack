@@ -50,7 +50,7 @@ const Hero = () => {
             <div className="w-[50vw] flex flex-col md:flex-row justify-end items-center md:justify-center pt-8">
                 <div
                     className="apply-button"
-                    data-hackathon-slug="wowhackathon.devfolio.co"
+                    data-hackathon-slug="wowhackathon"
                     data-button-theme="dark-inverted"
                     style={{ height: '44px', width: '312px' }}
                 ></div>
