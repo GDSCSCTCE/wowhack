@@ -13,23 +13,26 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-    let scrollPosition = window.scrollY;
-    let color;
-  
-    if (scrollPosition <= 250) {
-      color = '--google-blue';
-    } else if (scrollPosition > 250 && scrollPosition <= 500) {
-      color = '--google-red';
-    } else if (scrollPosition > 500 && scrollPosition <= 750) {
-      color = '--google-yellow';
-    }else {
-      color = '--google-green';
-    }
-  
-    document.documentElement.style.setProperty('--scrollbar-thumb-color', `var(${color})`);
-  });
-}, []);
+    window.addEventListener("scroll", () => {
+      let scrollPosition = window.scrollY;
+      let color;
+
+      if (scrollPosition <= 250) {
+        color = "--google-blue";
+      } else if (scrollPosition > 250 && scrollPosition <= 500) {
+        color = "--google-red";
+      } else if (scrollPosition > 500 && scrollPosition <= 750) {
+        color = "--google-yellow";
+      } else {
+        color = "--google-green";
+      }
+
+      document.documentElement.style.setProperty(
+        "--scrollbar-thumb-color",
+        `var(${color})`
+      );
+    });
+  }, []);
   return (
     <div className="flex flex-col overflow-x-hidden">
       <NavBar />
@@ -37,8 +40,8 @@ export default function Home() {
         <Hero />
         <Venue />
         <Sponsors />
-        <TimeLine/>
-        <Footer/> 
+        {/* <TimeLine/> */}
+        <Footer />
         {/* <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-between">
           <Timer />
           <Image
